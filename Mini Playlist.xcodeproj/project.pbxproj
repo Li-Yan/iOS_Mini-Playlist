@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001ED3E16C772DF005D9C56 /* Mini Playlist 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = B001ED3D16C772DF005D9C56 /* Mini Playlist 57x57.png */; };
+		B001ED4016C772F5005D9C56 /* Mini Playlist 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = B001ED3F16C772F5005D9C56 /* Mini Playlist 114x114.png */; };
+		B038DE2D16C1B5A000B5F1EA /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = B038DE2C16C1B5A000B5F1EA /* Video.m */; };
+		B0E894AA16C15A3100952372 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E894A916C15A3100952372 /* UIKit.framework */; };
+		B0E894AC16C15A3100952372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E894AB16C15A3100952372 /* Foundation.framework */; };
+		B0E894AE16C15A3100952372 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E894AD16C15A3100952372 /* CoreGraphics.framework */; };
+		B0E894B416C15A3100952372 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E894B216C15A3100952372 /* InfoPlist.strings */; };
+		B0E894B616C15A3100952372 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E894B516C15A3100952372 /* main.m */; };
+		B0E894BA16C15A3100952372 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E894B916C15A3100952372 /* AppDelegate.m */; };
+		B0E894BC16C15A3100952372 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E894BB16C15A3100952372 /* Default.png */; };
+		B0E894BE16C15A3100952372 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E894BD16C15A3100952372 /* Default@2x.png */; };
+		B0E894C016C15A3100952372 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E894BF16C15A3100952372 /* Default-568h@2x.png */; };
+		B0E894C316C15A3100952372 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E894C116C15A3100952372 /* MainStoryboard.storyboard */; };
+		B0E894C616C15A3100952372 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E894C516C15A3100952372 /* MasterViewController.m */; };
+		B0E894C916C15A3100952372 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E894C816C15A3100952372 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B001ED3D16C772DF005D9C56 /* Mini Playlist 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mini Playlist 57x57.png"; sourceTree = "<group>"; };
+		B001ED3F16C772F5005D9C56 /* Mini Playlist 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mini Playlist 114x114.png"; sourceTree = "<group>"; };
+		B038DE2B16C1B5A000B5F1EA /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		B038DE2C16C1B5A000B5F1EA /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		B0E894A616C15A3100952372 /* Mini Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Playlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E894A916C15A3100952372 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0E894AB16C15A3100952372 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0E894AD16C15A3100952372 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0E894B116C15A3100952372 /* Mini Playlist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mini Playlist-Info.plist"; sourceTree = "<group>"; };
+		B0E894B316C15A3100952372 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E894B516C15A3100952372 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E894B716C15A3100952372 /* Mini Playlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mini Playlist-Prefix.pch"; sourceTree = "<group>"; };
+		B0E894B816C15A3100952372 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0E894B916C15A3100952372 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0E894BB16C15A3100952372 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0E894BD16C15A3100952372 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0E894BF16C15A3100952372 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0E894C216C15A3100952372 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0E894C416C15A3100952372 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B0E894C516C15A3100952372 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B0E894C716C15A3100952372 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B0E894C816C15A3100952372 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E894A316C15A3100952372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E894AA16C15A3100952372 /* UIKit.framework in Frameworks */,
+				B0E894AC16C15A3100952372 /* Foundation.framework in Frameworks */,
+				B0E894AE16C15A3100952372 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E8949D16C15A3100952372 = {
+			isa = PBXGroup;
+			children = (
+				B001ED3F16C772F5005D9C56 /* Mini Playlist 114x114.png */,
+				B001ED3D16C772DF005D9C56 /* Mini Playlist 57x57.png */,
+				B0E894CF16C15A6100952372 /* Models */,
+				B0E894AF16C15A3100952372 /* Mini Playlist */,
+				B0E894A816C15A3100952372 /* Frameworks */,
+				B0E894A716C15A3100952372 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E894A716C15A3100952372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E894A616C15A3100952372 /* Mini Playlist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E894A816C15A3100952372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E894A916C15A3100952372 /* UIKit.framework */,
+				B0E894AB16C15A3100952372 /* Foundation.framework */,
+				B0E894AD16C15A3100952372 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E894AF16C15A3100952372 /* Mini Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				B0E894B816C15A3100952372 /* AppDelegate.h */,
+				B0E894B916C15A3100952372 /* AppDelegate.m */,
+				B0E894C116C15A3100952372 /* MainStoryboard.storyboard */,
+				B0E894C416C15A3100952372 /* MasterViewController.h */,
+				B0E894C516C15A3100952372 /* MasterViewController.m */,
+				B0E894C716C15A3100952372 /* DetailViewController.h */,
+				B0E894C816C15A3100952372 /* DetailViewController.m */,
+				B0E894B016C15A3100952372 /* Supporting Files */,
+			);
+			path = "Mini Playlist";
+			sourceTree = "<group>";
+		};
+		B0E894B016C15A3100952372 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E894B116C15A3100952372 /* Mini Playlist-Info.plist */,
+				B0E894B216C15A3100952372 /* InfoPlist.strings */,
+				B0E894B516C15A3100952372 /* main.m */,
+				B0E894B716C15A3100952372 /* Mini Playlist-Prefix.pch */,
+				B0E894BB16C15A3100952372 /* Default.png */,
+				B0E894BD16C15A3100952372 /* Default@2x.png */,
+				B0E894BF16C15A3100952372 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0E894CF16C15A6100952372 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B038DE2B16C1B5A000B5F1EA /* Video.h */,
+				B038DE2C16C1B5A000B5F1EA /* Video.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E894A516C15A3100952372 /* Mini Playlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E894CC16C15A3100952372 /* Build configuration list for PBXNativeTarget "Mini Playlist" */;
+			buildPhases = (
+				B0E894A216C15A3100952372 /* Sources */,
+				B0E894A316C15A3100952372 /* Frameworks */,
+				B0E894A416C15A3100952372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini Playlist";
+			productName = "Mini Playlist";
+			productReference = B0E894A616C15A3100952372 /* Mini Playlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E8949E16C15A3100952372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Li Yan";
+			};
+			buildConfigurationList = B0E894A116C15A3100952372 /* Build configuration list for PBXProject "Mini Playlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0E8949D16C15A3100952372;
+			productRefGroup = B0E894A716C15A3100952372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E894A516C15A3100952372 /* Mini Playlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E894A416C15A3100952372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E894B416C15A3100952372 /* InfoPlist.strings in Resources */,
+				B0E894BC16C15A3100952372 /* Default.png in Resources */,
+				B0E894BE16C15A3100952372 /* Default@2x.png in Resources */,
+				B0E894C016C15A3100952372 /* Default-568h@2x.png in Resources */,
+				B0E894C316C15A3100952372 /* MainStoryboard.storyboard in Resources */,
+				B001ED3E16C772DF005D9C56 /* Mini Playlist 57x57.png in Resources */,
+				B001ED4016C772F5005D9C56 /* Mini Playlist 114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E894A216C15A3100952372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E894B616C15A3100952372 /* main.m in Sources */,
+				B0E894BA16C15A3100952372 /* AppDelegate.m in Sources */,
+				B0E894C616C15A3100952372 /* MasterViewController.m in Sources */,
+				B0E894C916C15A3100952372 /* DetailViewController.m in Sources */,
+				B038DE2D16C1B5A000B5F1EA /* Video.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0E894B216C15A3100952372 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E894B316C15A3100952372 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0E894C116C15A3100952372 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E894C216C15A3100952372 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E894CA16C15A3100952372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Yan (EK68XXTDTN)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0E894CB16C15A3100952372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Yan (EK68XXTDTN)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0E894CD16C15A3100952372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini Playlist/Mini Playlist-Prefix.pch";
+				INFOPLIST_FILE = "Mini Playlist/Mini Playlist-Info.plist";
+				PRODUCT_NAME = "Mini Playlist";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0E894CE16C15A3100952372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mini Playlist/Mini Playlist-Prefix.pch";
+				INFOPLIST_FILE = "Mini Playlist/Mini Playlist-Info.plist";
+				PRODUCT_NAME = "Mini Playlist";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E894A116C15A3100952372 /* Build configuration list for PBXProject "Mini Playlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E894CA16C15A3100952372 /* Debug */,
+				B0E894CB16C15A3100952372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E894CC16C15A3100952372 /* Build configuration list for PBXNativeTarget "Mini Playlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E894CD16C15A3100952372 /* Debug */,
+				B0E894CE16C15A3100952372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E8949E16C15A3100952372 /* Project object */;
+}
